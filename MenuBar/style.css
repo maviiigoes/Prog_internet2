@@ -6,33 +6,49 @@ body {
   background-color: beige;
 }
 
+.LogoPerfil{
+  height: 50%;
+  width: auto;
+  border-radius: 50%;
+}
+
+.Link{
+  display: flex;
+  
+}
+
 img {
   max-width: 90px;
   height: auto;
   border-radius: 50%; 
 }
+
+
 nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   background-color: rgb(202, 197, 204);
   
+  
 }
 
 button {
   background-color: rgb(128, 11, 89);
   border: none;
- padding: 1vh; 
+  padding: 1vh; 
   color: white;
   border-radius: 10%;
+  padding: 1vh 5vw
 }
 
 nav a {
   padding: 1vh;
   text-decoration: none;
   color: rgb(156, 36, 96);
- 
+  
 }
+
 
 iframe {
   max-width: 100%;
@@ -44,6 +60,7 @@ iframe {
     flex-direction: column-reverse;
   }
 
+  
   nav {
     align-items: center;
     flex-direction: row;
@@ -61,6 +78,7 @@ iframe {
   img {
     width: auto ;
     height:5vh;
+
   }
 
   p {
@@ -69,24 +87,26 @@ iframe {
 
   .Link {
     justify-content: center;
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .perfil {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  
+
+  .LogoPerfil{
+    height: 5vh;
+    width: auto;
+    border-radius: 50%;
   }
 }
 
+
 @media screen and (min-width: 661px) {
   nav {
-    display: flex;
+   
     height: 100vh;
     align-items: center;
-    justify-content: space-around;
+   
   }
   
   iframe {
@@ -106,16 +126,28 @@ iframe {
     width: auto ;
     height:30%;
   }
-  }
 
-  @media screen and (min-width: 1000px){
-    .Link{
-      margin-top: 0;
-      display:flex;
-      flex-direction: row;
-      align-self: center;
-      align-items: center;
-    }
-  
-   
   }
+  
+  
+    @media screen and (min-width: 1000px){
+      .Link{
+        
+        display:flex;
+        flex-direction: row;
+        align-self: center;
+        align-items: center;
+      }
+
+
+      .perfil{
+        margin-top: 10%;
+        margin-bottom: 10px;
+
+      }
+
+    }
+    
+      
+      
+    
